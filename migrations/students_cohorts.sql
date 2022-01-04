@@ -5,7 +5,7 @@ CREATE TABLE cohorts(
   end_date DATE
 );
 
-CREATE TABLE students(
+CREATE TABLE assignment_submission(
   id SERIAL PRIMARY KEY NOT NULL,
   name VARCHAR(255) NOT NULL,
   email VARCHAR(255),
